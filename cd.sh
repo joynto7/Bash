@@ -11,3 +11,7 @@ echo "cd ~ (to go to the home directoy)"
 echo "cd - (to switch to the previous directory)"
 
 echo "cd / (to go to the root directoruy)"
+
+#chaange and showing list 
+
+echo " cd directory_name  && ls "
