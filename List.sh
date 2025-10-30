@@ -1,0 +1,10 @@
+echo "ls stand for list directory contents"
+
+echo "ls -l : list in long format"
+echo "ls -a : list all files including hidden files"
+echo "ls -h : human readable file sizes"
+echo "ls -r : reverse order while sorting"
+echo "ls -R : list directories recursively"
+echo "ls -t : sort by modification time"
+echo "ls -S : sort by file size"
+echo "ls -1 : list one file per line"
