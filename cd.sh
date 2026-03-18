@@ -15,3 +15,6 @@ echo "cd / (to go to the root directoruy)"
 #chaange and showing list 
 
 echo " cd directory_name  && ls "
+
+# new era stat
+echo " i am back " 
