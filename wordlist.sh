@@ -25,4 +25,20 @@ echo "password${NUM}"
 echo ""
 echo "--- Saving to wordlist.txt ---"
 
+cat > wordlist.txt << EOF
+$NAME
+$NAME$NUM
+$NAME@$NUM
+$NAME#$NUM
+${NAME}123
+${NAME}2024
+${NAME}2025
+${NAME}_admin
+admin_${NAME}
+admin
+password
+123456
+${NAME}password
+password${NUM}
+EOF
 
