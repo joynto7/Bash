@@ -42,3 +42,4 @@ ${NAME}password
 password${NUM}
 EOF
 
+echo "Done! Wordlist saved to wordlist.txt"
