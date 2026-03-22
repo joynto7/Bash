@@ -21,3 +21,7 @@ PORTS=(
   [143]="IMAP"
   [443]="HTTPS"
   [445]="SMB"
+  [3306]="MySQL"
+  [3389]="RDP"
+  [8080]="HTTP-Alt"
+
