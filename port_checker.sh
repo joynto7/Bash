@@ -25,3 +25,5 @@ PORTS=(
   [3389]="RDP"
   [8080]="HTTP-Alt"
 
+ for PORT in "${!PORTS[@]}"; do
+  SERVICE=${PORTS[$PORT]}
