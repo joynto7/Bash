@@ -34,3 +34,6 @@ PORTS=(
     echo "  [closed] Port $PORT  —  $SERVICE"
   fi
 done
+
+echo ""
+echo "Done!"
