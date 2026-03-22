@@ -13,3 +13,5 @@ declare -A PORTS
 PORTS=(
   [21]="FTP"
   [22]="SSH"
+  [23]="Telnet"
+  [25]="SMTP"
