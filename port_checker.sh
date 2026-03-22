@@ -27,3 +27,10 @@ PORTS=(
 
  for PORT in "${!PORTS[@]}"; do
   SERVICE=${PORTS[$PORT]}
+
+ if timeout 1 bash -c "echo > /dev/tcp/$IP/$PORT" 2>/dev/null; then
+    echo "  [OPEN]   Port $PORT  —  $SERVICE"
+  else
+    echo "  [closed] Port $PORT  —  $SERVICE"
+  fi
+done
