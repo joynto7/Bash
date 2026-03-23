@@ -8,3 +8,7 @@ echo ""
 echo "--- Checking Subdomains of $DOMAIN ---"
 echo ""
 
+SUBDOMAINS=(
+  "www"
+  "mail"
+  "ftp"
