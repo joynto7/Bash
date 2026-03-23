@@ -38,3 +38,5 @@ if [[ -n "$RESULT" ]]; then
 done
 
 
+echo ""
+echo "Done!"
