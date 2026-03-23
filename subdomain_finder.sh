@@ -12,3 +12,6 @@ SUBDOMAINS=(
   "www"
   "mail"
   "ftp"
+  "admin"
+  "blog"
+  "dev"
