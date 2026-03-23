@@ -21,3 +21,8 @@ SUBDOMAINS=(
   "portal"
   "vpn"
   "remote"
+  "staging"
+  "server"
+  "backup"
+)
+
