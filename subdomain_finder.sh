@@ -30,3 +30,11 @@ for SUB in "${SUBDOMAINS[@]}"; do
   FULL="$SUB.$DOMAIN"
 
 
+if [[ -n "$RESULT" ]]; then
+    echo "  [FOUND]  $FULL  -->  $RESULT"
+  else
+    echo "  [none]   $FULL"
+  fi
+done
+
+
