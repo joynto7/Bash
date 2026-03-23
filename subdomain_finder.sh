@@ -15,3 +15,6 @@ SUBDOMAINS=(
   "admin"
   "blog"
   "dev"
+  "test"
+  "api"
+  "shop"
