@@ -4,3 +4,7 @@
 
 read -rp "Enter domain (e.g. example.com): " DOMAIN
 
+echo ""
+echo "--- Checking Subdomains of $DOMAIN ---"
+echo ""
+
