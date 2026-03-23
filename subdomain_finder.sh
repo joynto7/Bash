@@ -26,3 +26,7 @@ SUBDOMAINS=(
   "backup"
 )
 
+for SUB in "${SUBDOMAINS[@]}"; do
+  FULL="$SUB.$DOMAIN"
+
+
