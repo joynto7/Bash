@@ -18,3 +18,6 @@ SUBDOMAINS=(
   "test"
   "api"
   "shop"
+  "portal"
+  "vpn"
+  "remote"
