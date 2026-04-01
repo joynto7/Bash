@@ -13,3 +13,11 @@ RESULT=$(curl -s "https://ipinfo.io/$IP/json")
  
 # Parse each field from the JSON response
 echo "  IP       : $(echo "$RESULT" | grep '"ip"'       | cut -d'"' -f4)"
+echo "  Hostname : $(echo "$RESULT" | grep '"hostname"' | cut -d'"' -f4)"
+echo "  City     : $(echo "$RESULT" | grep '"city"'     | cut -d'"' -f4)"
+echo "  Country  : $(echo "$RESULT" | grep '"country"'  | cut -d'"' -f4)"
+echo "  Org      : $(echo "$RESULT" | grep '"org"'      | cut -d'"' -f4)"
+echo "  Location : $(echo "$RESULT" | grep '"loc"'      | cut -d'"' -f4)"
+ 
+echo ""
+echo "Done!"
